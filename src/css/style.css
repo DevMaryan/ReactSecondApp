@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+#header{
+    height:100px;
+    background-color:#339CFF;
+    color:#FFF;
+    font-family: 'Roboto';
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+}
+#show-form{
+    padding:0.5rem 1rem;
+    background-color:#0c59a0;
+    color:#FFF;
+    border:0;
+    border-radius:3px;
+    cursor:pointer;
+}
+#show-form:hover{
+    opacity:0.9;
+}
+#form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0 auto;
+    margin-top:50px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    background-color:#FaFAfa;
+    padding:1rem;
+    border-radius:3px;
+    display:none;
+}
+#form h2{
+    margin-bottom:20px;
+    text-align:center;
+    color:#0c59a0;
+}
+#form input{
+    padding:6px;
+    margin:5px 0px;
+    border-radius:3px;
+    border:1px solid #D8D8D8;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+#sign-up{
+    margin-top:20px;
+    padding:0.5rem 1rem;
+    background-color:#0c59a0;
+    color:#FFF;
+    border:0;
+    border-radius:3px;
+    cursor:pointer;
+}
+#sign-up:hover{
+    opacity:0.9;
+}
+#table{
+    display:none;
+    font-family: 'Roboto';
+    margin-top:30px;
+}
+table{
+    border-collapse: collapse;
+    width:600px;
+    margin: 0 auto;
+}
+table thead tr th{
+    padding:1rem;
+}
+th{
+    background-color:#0c59a0;
+    color:#FFF;
+}
+tr:hover{
+    cursor:pointer;
+    background-color:#339CFF !important;
+    color:#FFF;
+}
+tr:nth-child(even){
+    background-color:#f9f9f9;
+}
+tr td{
+    padding:1rem;
+}
